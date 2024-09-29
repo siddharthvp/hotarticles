@@ -67,7 +67,7 @@ function getEditCounts( $link, $source, $days = 3, $limit = 5, $method = 'catego
  * @throws Exception
  */
 function getSubscriptions( $wikipedia, $project = null ) {
-	$configPage = 'User:HotArticlesBot/Config.json';
+	$configPage = 'Wikipedia:WikiProject/Hot_articles_config.json';
 	$page = $wikipedia->getpage( $configPage );
 	if ( $page ) {
 		$res = json_decode( $page, true );

@@ -2,4 +2,4 @@ This code is for generating hot articles reports for WikiProjects. These reports
 
 It requires https://github.com/legoktm/harej-bots/blob/master/botclasses.php to be installed in the parent directory, as well as a config.inc.php file (see example).
 
-See https://en.wikipedia.org/wiki/User:HotArticlesBot/Config.json for the on-wiki subscription configuration.
+See https://en.wikipedia.org/wiki/Wikipedia:WikiProject/Hot_articles_config.json for the on-wiki subscription configuration.
